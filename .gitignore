@@ -1,0 +1,70 @@
+# ====================================================================
+# ffx-magic-re .gitignore
+# ====================================================================
+# This file serves dual purpose:
+#   1. Standard Python project ignores
+#   2. HARD DENY of binary/reverse-engineering artifacts
+#      (enforced by scripts/verify_public_tree.py)
+# ====================================================================
+
+# --- Forbidden binary / RE artifacts (NEVER commit) ---
+*.dll
+*.exe
+*.bin
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.phyre
+*.tm2
+*.dds
+*.wav
+*.fsb
+*.png
+
+# --- Forbidden directories (NEVER commit) ---
+tools/
+ExternalLibs/
+ffx_reconstructed/
+docs/reverse/
+mods/
+work/
+backups/
+compiled_magic/
+compiled_test/
+textures/
+
+# --- Python build / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Environment ---
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "source_root": "/path/to/private/source",
+  "entries": [
+    {
+      "source": "docs/analysis_summary.md",
+      "destination": "docs/reproducibility.md",
+      "review": "Manually verified: methodology description only, no raw data or assets"
+    }
+  ]
+}
