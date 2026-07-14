@@ -52,8 +52,11 @@ from .decoder import (
 from .wd3_writer import serialize_wd3_structure
 from .wd3_blob_writer import serialize_wd3_blob
 from .payload_map import compute_payload_layout, compute_ownership_spans
+from .c2_color_codec import ColorPayload, parse_color_payload, serialize_color_payload
+from .c2_scale_codec import ScalePayload, parse_scale_payload, serialize_scale_payload
+from .c2_effect_overlay import apply_overlay, verify_overlay, OverlayMapping, PeDataSection
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "__version__",
@@ -84,4 +87,14 @@ __all__ = [
     "serialize_wd3_blob",
     "compute_payload_layout",
     "compute_ownership_spans",
+    "ColorPayload",
+    "parse_color_payload",
+    "serialize_color_payload",
+    "ScalePayload",
+    "parse_scale_payload",
+    "serialize_scale_payload",
+    "apply_overlay",
+    "verify_overlay",
+    "OverlayMapping",
+    "PeDataSection",
 ]
