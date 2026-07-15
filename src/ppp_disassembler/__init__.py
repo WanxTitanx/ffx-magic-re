@@ -55,8 +55,10 @@ from .payload_map import compute_payload_layout, compute_ownership_spans
 from .c2_color_codec import ColorPayload, parse_color_payload, serialize_color_payload
 from .c2_scale_codec import ScalePayload, parse_scale_payload, serialize_scale_payload
 from .c2_effect_overlay import apply_overlay, verify_overlay, OverlayMapping, PeDataSection
+from .useful_ppp_candidates import UsefulPppCandidate, UsefulPppCandidateReport, UsefulPppFamilySpec, select_useful_ppp_candidates
+from .useful_ppp_writer import apply_vector, dry_run_vector, restore_vector
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 __all__ = [
     "__version__",
@@ -97,4 +99,11 @@ __all__ = [
     "verify_overlay",
     "OverlayMapping",
     "PeDataSection",
+    "UsefulPppCandidate",
+    "UsefulPppCandidateReport",
+    "UsefulPppFamilySpec",
+    "select_useful_ppp_candidates",
+    "dry_run_vector",
+    "apply_vector",
+    "restore_vector",
 ]

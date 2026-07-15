@@ -4,6 +4,18 @@ All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0] - 2026-07-15
+
+### Added
+
+- Structural candidate selector for useful behavior-oriented PPP families.
+- Same-size, SHA-gated vector mutation helper limited to a proven 16-byte operand window.
+- Synthetic tests covering structural rejection, bounded mutation, tamper-safe restore, and behavior-family selection.
+
+### Notes
+
+- This release contains no game assets, IDs, offsets, runtime captures, game paths, or installed-file tooling.
+- Runtime attribution and in-game validation remain local research workflows.
 ## [0.2.0] - 2026-07-14
 
 ### Added
