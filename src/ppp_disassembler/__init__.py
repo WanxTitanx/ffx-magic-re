@@ -56,7 +56,7 @@ from .c2_color_codec import ColorPayload, parse_color_payload, serialize_color_p
 from .c2_scale_codec import ScalePayload, parse_scale_payload, serialize_scale_payload
 from .c2_effect_overlay import apply_overlay, verify_overlay, OverlayMapping, PeDataSection
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 __all__ = [
     "__version__",

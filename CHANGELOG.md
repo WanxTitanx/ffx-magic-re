@@ -45,3 +45,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - WD3 structural layers (A and B) are documented as tested and validated.
 - The C1 slot codec is documented as validated privately, with public API exposure planned for a subsequent release.
 - Semantic PPP assembly (C2), structural resize (C3), and new effect generation are documented as research-only at this time.
+
+## 0.3.0 (2026-07-15)
+- Add TDD-backed pppColor callback writer (C2-B/T3 offline) and CLI (dry-run / pply / estore).
+- Add PPP slot/resource structural parser (Layer C1) reused by the writer for owner validation.
+- All fixtures are synthetic; no game files, paths, IDs, hashes or runtime captures are published.
+
