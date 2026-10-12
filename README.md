@@ -62,7 +62,7 @@ The guard checks:
 | Check | Example trigger |
 |---|---|
 | Forbidden extensions | `.dll`, `.exe`, `.bin`, `.i64`, `.phyre`, `.png` |
-| Forbidden directories | `tools/`, `ExternalLibs/`, `ffx_reconstructed/` |
+| Forbidden directories | `tools/`, `ExternalLibs/`, `private research trees` |
 | Text markers (decompiler watermarks) | `Hex-Rays`, `Auto-decompiled by` |
 | Private filesystem paths | `C:\Users\...` or `/Users/...` |
 | Credential-like assignments | `password = "**"` |

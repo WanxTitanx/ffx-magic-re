@@ -54,7 +54,7 @@ This scans all tracked and untracked files for:
 | Check | What it catches |
 |---|---|
 | Forbidden extensions | `.dll`, `.exe`, `.bin`, `.i64`, `.idb`, `.phyre`, `.dds`, `.png`, etc. |
-| Forbidden directories | `tools/`, `ExternalLibs/`, `ffx_reconstructed/`, `docs/reverse/`, etc. |
+| Forbidden directories | `tools/`, `ExternalLibs/`, `private research trees`, `docs/reverse/`, etc. |
 | Text markers | `Hex-Rays`, `Auto-decompiled by`, `Generated from IDA database` |
 | Private paths | `C:\Users\...`, `/Users/...` |
 | Credentials | `password = "**"`, `api_key = '**'`, `token = "**"` |
